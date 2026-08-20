@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Kayla Brown</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #24231f;
+    --ink-soft: #57564f;
+    --bg: #fdfdfb;
+    --rule: #e4e2da;
+    --link: #24231f;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Cardo', Georgia, serif;
+    font-weight: 400;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page {
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 14vh 24px 12vh;
+  }
+
+  /* Quiet, unbranded nav — plain text links, no bar, no box */
+  nav.quiet {
+    margin-bottom: 5.5rem;
+    font-size: 0.95rem;
+    color: var(--ink-soft);
+  }
+
+  nav.quiet a {
+    color: var(--ink-soft);
+    text-decoration: none;
+    margin-right: 1.5rem;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+
+  nav.quiet a:last-child { margin-right: 0; }
+
+  nav.quiet a:hover,
+  nav.quiet a:focus-visible {
+    color: var(--ink);
+    border-bottom-color: var(--ink-soft);
+  }
+
+  nav.quiet a.current {
+    color: var(--ink);
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    letter-spacing: -0.01em;
+    margin: 0 0 1.3rem;
+  }
+
+  .role {
+    font-style: italic;
+    color: var(--ink-soft);
+    font-size: 1.05rem;
+    margin: 0 0 3rem;
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 1.15rem;
+    margin: 3.5rem 0 1.2rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  p {
+    font-size: 1.08rem;
+    margin: 0 0 1.3rem;
+  }
+
+  a { color: var(--link); }
+  a:hover { color: var(--ink-soft); }
+
+  ul.pub-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul.pub-list li {
+    margin-bottom: 1.4rem;
+    font-size: 1.03rem;
+  }
+
+  ul.pub-list .venue {
+    display: block;
+    color: var(--ink-soft);
+    font-style: italic;
+    font-size: 0.95rem;
+    margin-top: 0.15rem;
+  }
+
+  .contact-links {
+    font-size: 1.05rem;
+  }
+
+  .contact-links a {
+    display: inline-block;
+    margin-right: 1.3rem;
+  }
+
+  .divider {
+    width: 32px;
+    height: 1px;
+    background: var(--rule);
+    border: none;
+    margin: 1.6rem 0;
+  }
+
+  ::selection {
+    background: #e4e2da;
+  }
+
+  a:focus-visible,
+  nav.quiet a:focus-visible {
+    outline: 2px solid var(--ink-soft);
+    outline-offset: 2px;
+  }
+
+  @media (max-width: 480px) {
+    .page { padding: 10vh 20px 10vh; }
+    h1 { font-size: 1.6rem; }
+    nav.quiet { margin-bottom: 4rem; }
+    nav.quiet a { margin-right: 1rem; display: inline-block; margin-bottom: 0.4rem; }
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+
+    <nav class="quiet">
+      <a href="index.html">About</a>
+      <a href="https://profiles.stanford.edu/kaylabrown" target="_blank" rel="noopener">Stanford Profile</a>
+      <a href="contact.html" class="current">Contact</a>
+    </nav>
+
+    <p style="font-style: italic;">
+      kaylabr (at) stanford . edu
+    </p>
+
+    <p>
+      Note: If you are a prospective graduate student interested in
+      application advice (e.g., Gates Cambridge or PhD), please message
+      me on
+      <a href="https://www.linkedin.com/in/kaylabr/" target="_blank" rel="noopener">LinkedIn</a>
+      instead of sending an email. I am always happy to chat, and I will
+      do my best to respond to all inquiries this application cycle.
+    </p>
+
+  </div>
+</body>
+</html>
